@@ -50,17 +50,29 @@
 	<gap:plugin name="Accelerometer" value="org.apache.cordova.AccelListener" />
 	<gap:plugin name="Camera" value="org.apache.cordova.CameraLauncher" />
 	<gap:plugin name="Capture" value="org.apache.cordova.Capture"/>
+	
 	<!-- <gap:plugin name="Compass" value="org.apache.cordova.CompassListener" /> -->
+	<gap:plugin name="org.apache.cordova.device-orientation" version="0.3.5" />
+	
 	<gap:plugin name="Contacts" value="org.apache.cordova.ContactManager" />
 	<gap:plugin name="Device" value="org.apache.cordova.Device" />
-	<gap:plugin name="NetworkStatus" value="org.apache.cordova.NetworkManager" />	
+	<gap:plugin name="NetworkStatus" value="org.apache.cordova.NetworkManager" />
+	
 	<!-- <gap:plugin name="Battery" value="org.apache.cordova.BatteryListener" /> -->
+	<gap:plugin name="org.apache.cordova.battery-status" version="0.2.7" />
+	
 	<gap:plugin name="File" value="org.apache.cordova.FileUtils" />
 	<gap:plugin name="FileTransfer" value="org.apache.cordova.FileTransfer" />
-	<gap:plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
+	
+	<!--<gap:plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />-->
+	<gap:plugin name="org.apache.cordova.geolocation" version="0.3.7" />
+	
 	<gap:plugin name="Globalization" value="org.apache.cordova.Globalization" />	
 	<gap:plugin name="Media" value="org.apache.cordova.AudioHandler" />
+	
 	<gap:plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+	<!--<gap:plugin name="org.li8.inappbrowser" version="0.1" />-->
+	
 	<gap:plugin name="Notification" value="org.apache.cordova.Notification"/>
 	<gap:plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
 	<gap:plugin name="Storage" value="org.apache.cordova.Storage" />
