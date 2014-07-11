@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.grappsmobile.pgbtest"
+        id        = "com.ocweb.pgbtest"
         version   = "0.0.2">
     <name>PGB Test</name>
 
@@ -9,7 +9,7 @@
         Kitchen Sink of Phonegap Build APIs
     </description>
 
-    <author href="http://phonegap.com" email="shanabus@gmail.com">
+    <author href="http://phonegap.com" email="quangtn@gmail.com">
         Shane Sievers
     </author>
 
